@@ -3,11 +3,11 @@ from pyais import NMEAMessage
 import json
 
 # Input CSV
-input_csv = "/Users/pruthviv/Desktop/Notes/SEMESTER 4/AIS/AIS_Klaipeda_From20250908_To20251008.csv"
+input_csv = "/Users/sarveshdhumal/Documents/GitHub/ais-project/AIS_Klaipeda_From20250908_To20251008.csv"
 
 # Output files
-output_csv = "/Users/pruthviv/Desktop/Notes/SEMESTER 4/AIS/decoded_ais.csv"
-output_json = "/Users/pruthviv/Desktop/Notes/SEMESTER 4/AIS/decoded_ais.json"
+output_csv = "decoded_ais.csv"
+output_json = "decoded_ais.json"
 
 decoded_messages = []
 

@@ -1,0 +1,132 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="title" content=" Error - PowerFolder "/>
+    <meta name="description" content="Share, sync and backup your files online"/>
+
+    <title>
+    Error - PowerFolder
+    </title>
+
+    
+    
+    
+    <script src="/js/picasso/lang.js"></script>
+
+    <link rel="stylesheet" href="/css/glyphicons/glyphicons-filetypes.css"/>
+    <link rel="stylesheet" href="/css/glyphicons/glyphicons.css"/>
+
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="/css/bootstrap/bootstrap-theme.min.css"/>
+
+    <link rel="stylesheet" href="/css/picasso.css"/>
+    <link rel="stylesheet" href="/css/ck.css"/>
+    <link rel="stylesheet" href="/branding/web.css"/>
+
+
+    
+    <noscript>
+        <div class="pica-content pica-boxes">
+            <div class="pica-box alert alert-danger">
+                <h5>
+                    <span class="pica-glyph glyphicons glyphicons-exclamation-sign"></span>
+                    JavaScript is not enabled
+                </h5>
+
+                <a href="http://enable-javascript.com/" class="alert-link">
+                    Please enable JavaScript for best experience on this site.
+                </a>
+            </div>
+        </div>
+    </noscript>
+
+    </head>
+
+<body class="wallpaper">
+    <div class="container">
+        <div class="row">
+            <div class="hidden-xs col-sm-2 col-md-3 col-lg-3"></div>
+            <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 pica-relative">
+                <div class="pica-dialog">
+                    <div>
+
+<div>
+    <div id="pica_logo_big" class="pica-space"></div>
+
+    <h4>
+        <lang name="label_http_error"></lang>
+        404
+    </h4>
+
+    <div>
+                    <p>
+
+                <span class="pica-bold">
+                    Not Found
+                </span>
+            </p>
+        
+        <p class="text-justify">
+                            The page or file you are requesting is not available in case you followed a file link the file might become available shortly when the upload is completed.
+                    </p>
+
+        <a class="pica-space-top" href="javascript:history.back()">
+            <lang name="label_back"></lang>
+        </a>
+    </div>
+
+    
+    <div class="pica-pipe-group pica-space-top text-center">
+        <a href="https://www.itmz.uni-rostock.de/onlinedienste/clouddienste/unibox" target="_blank">
+            <lang name="label_imprint"></lang>
+        </a>
+
+        <a href="https://www.itmz.uni-rostock.de//onlinedienste/clouddienste/datenschutzrechtliche-informationen-nach-art-13-ds-gvo" target="_blank">
+            <lang name="label_privacy_policy"></lang>
+        </a>
+
+                    <a href="http://www.powerfolder.com" target="_blank">
+                <lang name="label_powered_by"></lang>
+            </a>
+            </div>
+</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-1 col-sm-2 col-md-3 col-lg-3"></div>
+        </div>
+    </div>
+
+    <script src="/js/jquery-3.6.0.min.js"></script>
+    <script src="/js/bootstrap/bootstrap.min.js"></script>
+
+    <script src="/js/picasso/helper.js"></script>
+    <script src="/js/picasso/notification.js"></script>
+    <script src="/js/picasso/picasso.js"></script>
+
+    <script src="/js/picasso/css-polyfill.js"></script>
+
+    <script type="application/javascript" nonce="THH2aFZvHY5r4UPYGVE2">
+        Picasso.set("baseUrl", "https://unibox.uni-rostock.de");
+        Picasso.set("CSRF", "");
+
+        /* Finally update language stuff */
+        Picasso.Lang.update();
+
+        /* Check browser after page load */
+        $(document).ready(function () {
+            if (Picasso.Helper.isInternetExplorer()) {
+                Picasso.Notification.show(
+                        Picasso.Lang.get("notification_error_internet_explorer"),
+                        "warning", true);
+            }
+        });
+    </script>
+
+</body>
+</html>
